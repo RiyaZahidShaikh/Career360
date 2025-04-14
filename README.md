@@ -55,32 +55,42 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/yourusername/career360.git
 cd career360
+```
 
 ### 2. Install Dependencies
 
 ```bash
 npm install
+```
 
 ### 3. Configure Environment Variables
 
-```bash
+```.env
 MONGODB_URI=your_mongodb_connection_string
+```
 
 ### 4. Start the Development Server
 
 ```bash
 npm run dev
+```
 
 Now, navigate to http://localhost:3000 in your browser to view the app.
 
+---
+
 ## 📊 Sample Report Visuals
+![Sample Report Visuals](/image.png "Result")
+
+---
 
 ## 📄 License
 This project is intended for educational purposes only. Please do not redistribute it under a commercial license without permission.
 
+---
+
 ## 👋 Contact
 For queries or feedback, feel free to reach out:
 
-LinkedIn: https://www.linkedin.com/in/riya-shaikh-30713126b
-
+[LinkedIn](https://www.linkedin.com/in/riya-shaikh-30713126b)
 Email: riyazahidshaikh.official@example.com

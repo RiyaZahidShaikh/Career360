@@ -39,13 +39,6 @@ Each section presents the user with randomized questions and ends with a detaile
 
 ---
 
-## 📁 Folder Structure
-
-career360/ │ ├── components/ # Reusable UI components ├── pages/ # Next.js pages (routes) ├── public/ # Static assets ├── utils/ # Utility functions (e.g., random question logic) ├── data/ # JSON files for questions ├── styles/ # Custom styles (if any) └── .env.local # Environment variables (MongoDB URI, etc.)
-
-
----
-
 ## 🛠️ Getting Started
 
 Follow these steps to run the project locally:
@@ -93,4 +86,5 @@ This project is intended for educational purposes only. Please do not redistribu
 For queries or feedback, feel free to reach out:
 
 [LinkedIn](https://www.linkedin.com/in/riya-shaikh-30713126b)
+
 Email: riyazahidshaikh.official@example.com

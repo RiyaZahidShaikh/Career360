@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Career360
 
-## Getting Started
+**Career360** is a self-assessment web application that helps individuals evaluate their **personality traits**, **soft skills**, and **career interests**. The platform uses structured quizzes and visual feedback to provide insights into personal strengths and career readiness, assisting users in making informed decisions about their growth and direction.
 
-First, run the development server:
+---
+
+## 🧠 Project Overview
+
+Career360 is designed to be used by students, early professionals, or anyone seeking better self-awareness. The platform includes three major assessments:
+
+- **Personality Insight Test**: Evaluates traits like Leadership, Influence, Openness, and Conscientiousness.
+- **Soft Skills Diagnostic**: Measures practical workplace skills across three dimensions – Skill, Knowledge, and Application.
+- **Career Inclination Quiz**: Assesses aptitude and interest across five major fields: Coding, Design, Marketing, Product Management, and Soft Skills.
+
+Each section presents the user with randomized questions and ends with a detailed result visualization, helping users identify areas of strength and improvement.
+
+---
+
+## ✨ Features
+
+- 🔍 **Personality Assessment** with visual breakdowns
+- 🧩 **Soft Skills Test** measuring real-world readiness
+- 🧭 **Career Aptitude Evaluation** with domain-wise scoring
+- 📊 **Graphical Reports** using pie charts and bar graphs
+- 🔄 **Randomized Questions** to prevent repetition and bias
+- 🧠 **User-Friendly Interface** with responsive design
+
+---
+
+## 🔧 Tech Stack
+
+| Layer       | Technology       |
+|-------------|------------------|
+| Frontend    | Next.js, Tailwind CSS |
+| Backend     | Next.js API Routes (or Express.js) |
+| Database    | MongoDB          |
+| Charts      | Chart.js / Recharts |
+| Deployment  | Vercel / Netlify (optional) |
+
+---
+
+## 📁 Folder Structure
+
+career360/ │ ├── components/ # Reusable UI components ├── pages/ # Next.js pages (routes) ├── public/ # Static assets ├── utils/ # Utility functions (e.g., random question logic) ├── data/ # JSON files for questions ├── styles/ # Custom styles (if any) └── .env.local # Environment variables (MongoDB URI, etc.)
+
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/career360.git
+cd career360
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+### 3. Configure Environment Variables
+
+```bash
+MONGODB_URI=your_mongodb_connection_string
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now, navigate to http://localhost:3000 in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📊 Sample Report Visuals
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📄 License
+This project is intended for educational purposes only. Please do not redistribute it under a commercial license without permission.
 
-## Learn More
+## 👋 Contact
+For queries or feedback, feel free to reach out:
 
-To learn more about Next.js, take a look at the following resources:
+LinkedIn: https://www.linkedin.com/in/riya-shaikh-30713126b
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email: riyazahidshaikh.official@example.com
